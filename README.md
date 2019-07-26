@@ -30,6 +30,8 @@ which I subsquently feed along with the test dataset into a predictions widget. 
 the results corresponds with the summary notes -- women fared better than men, first class
 passengers fared better than the others, etc.
 
+![First attempt](images/orange-logistic-regression.png)
+
 This seems like an ideal point to backtrack and see if I can find out a little more about my
 dataset. From [the following link][titanic-meta], I am able to uncover the following:
 
