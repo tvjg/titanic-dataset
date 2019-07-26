@@ -19,9 +19,8 @@
 		<link enabled="true" id="4" sink_channel="Learner" sink_node_id="5" source_channel="Learner" source_node_id="4" />
 		<link enabled="true" id="5" sink_channel="Data" sink_node_id="5" source_channel="Data" source_node_id="1" />
 		<link enabled="true" id="6" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
-		<link enabled="true" id="7" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
-		<link enabled="true" id="8" sink_channel="Model" sink_node_id="8" source_channel="Model" source_node_id="3" />
-		<link enabled="true" id="9" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="7" sink_channel="Model" sink_node_id="8" source_channel="Model" source_node_id="3" />
+		<link enabled="true" id="8" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="1" />
 	</links>
 	<annotations>
 		<text font-family="Helvetica" font-size="24" id="0" rect="(-185.0, 13.0, 500.0, 36.0)" type="text/plain">Comparison of Methods</text>
@@ -104,7 +103,7 @@ RmFyZXFDSwJYCAAAAEVtYmFya2VkcURLAXVYBQAAAG1ldGFzcUV9cUYoWAQAAABOYW1lcUdLA1gG
 AAAAVGlja2V0cUhLA1gFAAAAQ2FiaW5xSUsDdXViYXUu
 </properties>
 		<properties format="literal" node_id="2">{'C_index': 63, 'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'Logistic Regression', 'penalty_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x14\x00\x00\x01?\x00\x00\x03\x13\x00\x00\x02r\x00\x00\x02\x16\x00\x00\x01?\x00\x00\x03\x11\x00\x00\x02p\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00', '__version__': 1}</properties>
-		<properties format="literal" node_id="3">{'auto_apply': True, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': 'Random Forest', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 10, 'n_estimators': 150, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\xf0\x00\x00\x01\x86\x00\x00\x04\x98\x00\x00\x03\x03\x00\x00\x02\xf2\x00\x00\x01\x86\x00\x00\x04\x96\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': True, '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'auto_apply': True, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': 'Random Forest', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 10, 'n_estimators': 150, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\xf6\x00\x00\x01\x86\x00\x00\x04\x9e\x00\x00\x03\x03\x00\x00\x02\xf8\x00\x00\x01\x86\x00\x00\x04\x9c\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': True, '__version__': 1}</properties>
 		<properties format="literal" node_id="4">{'C': 1.0, 'auto_apply': True, 'coef0': 0.0, 'controlAreaVisible': True, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.0, 'kernel_type': 2, 'learner_name': 'SVM', 'limit_iter': True, 'max_iter': 100, 'nu': 0.5, 'nu_C': 1.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\xd2\x00\x00\x00\xb3\x00\x00\x03*\x00\x00\x02\xfe\x00\x00\x01\xd4\x00\x00\x00\xb3\x00\x00\x03(\x00\x00\x02\xfc\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00', 'svm_type': 1, 'tol': 0.001, '__version__': 1}</properties>
 		<properties format="pickle" node_id="5">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDQAAAGN2X3N0cmF0aWZpZWRxAohYBwAA
 AG5fZm9sZHNxA0sEWAkAAABuX3JlcGVhdHNxBEsEWAoAAAByZXNhbXBsaW5ncQVLAFgLAAAAc2Ft
@@ -194,14 +193,14 @@ A4ZywgEAAIZywwEAAGg7aGRLAYZyxAEAAIVyxQEAAHViZXUu
 cQKJWAoAAABhdXRvY29tbWl0cQOIWBIAAABjb250cm9sQXJlYVZpc2libGVxBIhYEwAAAHNhdmVk
 V2lkZ2V0R2VvbWV0cnlxBUMyAdnQywACAAAAAAAAAAAAEgAAB38AAAScAAAAAgAAABIAAAd9AAAE
 mgAAAAAAAAAAB4BxBlgQAAAAc2VsZWN0ZWRfbGVhcm5lcnEHY2NvcHlyZWcKX3JlY29uc3RydWN0
-b3IKcQhjYnVpbHRpbnMKbGlzdApxCWgJKYdxClJxC0sAYVgRAAAAc2VsZWN0ZWRfcXVhbnRpdHlx
+b3IKcQhjYnVpbHRpbnMKbGlzdApxCWgJKYdxClJxC0sBYVgRAAAAc2VsZWN0ZWRfcXVhbnRpdHlx
 DEsCWAsAAABfX3ZlcnNpb25fX3ENSwFYEAAAAGNvbnRleHRfc2V0dGluZ3NxDl1xD2NPcmFuZ2Uu
 d2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEQKYFxEX1xEihYBAAAAHRpbWVxE0dB106b994BAlgG
 AAAAdmFsdWVzcRR9cRUoWAkAAABzZWxlY3Rpb25xFmNidWlsdGlucwpzZXQKcRddcRiFcRlScRpo
 DUsBdVgHAAAAY2xhc3Nlc3EbXXEcKFgBAAAAMHEdWAEAAAAxcR5ldWJhdS4=
 </properties>
 		<properties format="literal" node_id="7">{'controlAreaVisible': True, 'display_convex_curve': False, 'display_convex_hull': False, 'display_def_threshold': True, 'display_perf_line': True, 'fn_cost': 500, 'fp_cost': 500, 'roc_averaging': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x80\x00\x00\x00\x12\x00\x00\x04\xff\x00\x00\x03\xec\x00\x00\x02\x82\x00\x00\x00\x12\x00\x00\x04\xfd\x00\x00\x03\xea\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00', 'target_index': 0, 'target_prior': 50.0, '__version__': 1}</properties>
-		<properties format="literal" node_id="8">{'controlAreaVisible': True, 'filename': '/home/bishop/Documents/titanic-randomforest.pkcls', 'history': ['/home/bishop/Documents/titanic-randomforest.pkcls'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x03.\x00\x00\x02\x04\x00\x00\x04b\x00\x00\x02\x86\x00\x00\x030\x00\x00\x02\x04\x00\x00\x04`\x00\x00\x02\x84\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', '__version__': 1}</properties>
+		<properties format="literal" node_id="8">{'controlAreaVisible': True, 'filename': '/home/bishop/Documents/titanic-randomforest.pkcls', 'history': ['/home/bishop/Documents/titanic-randomforest.pkcls'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x034\x00\x00\x02\x04\x00\x00\x04h\x00\x00\x02\x86\x00\x00\x036\x00\x00\x02\x04\x00\x00\x04f\x00\x00\x02\x84\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', '__version__': 1}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />

@@ -50,6 +50,8 @@ Orange packs several others including random forest and SVM. By performing cross
 training dataset, we can compare models for accuracy before applying the best option to our test
 dataset.
 
+![Model comparison](images/orange-comparison.png)
+
 Using the default settings for all classifiers, I found that out of the gate the random forest
 classifier returned the best cross-validation scores of the three methods -- SVM, random forest, and
 logistic regression. The SVM performed more poorly than I expected given the little I know about it.
@@ -66,7 +68,7 @@ of decision trees and experimenting with subset size, I was able to get this sco
 ## A Refined Classifier
 
 Having prototyped and explored my basic options for prediction, Orange has met my original goal --
-fast time to working prototype. Let's jump into [Jupyter notebook](titanic.ipynb) explore the
+fast time to working prototype. Let's jump into a [Jupyter notebook](titanic.ipynb) to explore the
 exported model as well as an alternate approach to tuning.
 
 ## References
